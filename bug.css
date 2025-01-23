@@ -1,0 +1,10 @@
+The following CSS code snippet demonstrates a common issue:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+This code will cause the `div` elements to float and potentially overlap if the parent container isn't cleared properly, resulting in unexpected layout.  The issue is less about a specific error message but rather an unexpected visual outcome.
