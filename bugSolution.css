@@ -1,0 +1,17 @@
+The following CSS snippet demonstrates a clearfix solution:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+
+/* clearfix solution */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+```
+
+By adding a `.clearfix` class to the parent container and applying the clearfix technique, the parent container will accurately wrap around the floated elements, ensuring the correct layout.
